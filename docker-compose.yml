@@ -1,6 +1,6 @@
 version: '3'
 services:
   web:
-    image: "we2app/node12-multi-arch:latest"
+    image: "node:latest"
     ports:
       - "80:80"
